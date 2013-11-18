@@ -17,6 +17,8 @@
 
 #ignore rvm-files
 .rvmrc
+.ruby-version
+.ruby-gemset
 
 #ignore tempfiles
 *~
