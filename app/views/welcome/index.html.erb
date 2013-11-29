@@ -1,8 +1,49 @@
-<section class="bck light padding">
+<div class="span12">
 
-<h2>Hello World</h2>
+<h2><%= t :welcome_index_title%></h2>
 <p>
-  The time is now: <%= Time.now %>
+        <%= t :welcome_index_content1%>
 </p>
 
-</section>
+</div>
+
+<div class="span12">
+      <div id="main" role="main">
+    <ul id="tiles">
+      <!-- These are our grid blocks -->
+          <li><%= image_tag('landingpage_promo1.jpg', width: 200, height: 400)%><p>1</p></li>
+          <li><%= image_tag('landingpage_promo2.jpg', width: 200)%><p>2</p></li>
+          <li><%= image_tag('landingpage_promo3.jpg', width: 200, heigh: 300)%><p>3</p></li>
+          <li><%= image_tag('landingpage_promo4.jpg', width: 200, height:500)%><p>3</p></li>
+          <li><%= image_tag('landingpage_promo5.jpg', width: 200, height:250)%><p>3</p></li>
+          <li><%= image_tag('landingpage_promo6.jpg', width: 200)%><p>3</p></li>
+          <li><%= image_tag('landingpage_promo7.jpg', width: 200)%><p>3</p></li>
+      <!-- End of grid blocks -->
+    </ul>
+</div>
+
+</div>
+<script type="text/javascript">
+  (function ($){
+    var handler = $('#tiles li');
+    
+    handler.wookmark({
+        // Prepare layout options.
+        autoResize: true, // This will auto-update the layout when the browser window is resized.
+        container: $('#main'), // Optional, used for some extra CSS styling
+        offset: 5, // Optional, the distance between grid items
+        outerOffset: 10, // Optional, the distance to the containers border
+        itemWidth: 210 // Optional, the width of a grid item
+    });
+    
+    // Capture clicks on grid items.
+    handler.click(function(){
+      // Randomize the height of the clicked item.
+      var newHeight = $('img', this).height() + Math.round(Math.random() * 300 + 30);
+      $(this).css('height', newHeight+'px');
+
+      // Update the layout.
+      handler.wookmark();
+    });
+  })(jQuery);
+</script>
