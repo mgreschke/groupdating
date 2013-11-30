@@ -35,7 +35,7 @@
     fillEmptySpace: false,
     flexibleWidth: 0,
     direction: undefined,
-    offset: 2,
+    offset: 5,
     onLayoutChanged: undefined,
     outerOffset: 0,
     resizeDelay: 50,

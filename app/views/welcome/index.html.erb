@@ -1,28 +1,95 @@
-<div class="span12">
 
-<h2><%= t :welcome_index_title%></h2>
-<p>
-	<%= t :welcome_index_content1%>
-</p>
+<div class="container-fluid" id="welcome">
+	<div class="row">
+		<div class="span12">
 
-</div>
+			<h1><%= t :welcome_index_title%></h2>
+			<h2>
+				<%= t :welcome_index_content1%>
+			</h2>
 
-<div class="span12">
-      <div id="main" role="main">
-    <ul id="tiles">
-      <!-- These are our grid blocks -->
-	  <li><%= image_tag('landingpage_promo1.jpg', width: 200, height: 400)%><p>1</p></li>
-	  <li><%= image_tag('landingpage_promo2.jpg', width: 200)%><p>2</p></li>
-	  <li><%= image_tag('landingpage_promo3.jpg', width: 200, heigh: 300)%><p>3</p></li>
-	  <li><%= image_tag('landingpage_promo4.jpg', width: 200, height:500)%><p>3</p></li>
-	  <li><%= image_tag('landingpage_promo5.jpg', width: 200, height:250)%><p>3</p></li>
-	  <li><%= image_tag('landingpage_promo6.jpg', width: 200)%><p>3</p></li>
-	  <li><%= image_tag('landingpage_promo7.jpg', width: 200)%><p>3</p></li>
-      <!-- End of grid blocks -->
-    </ul>
-</div>
+		</div>
+	</div>
+	</div>
 
-</div>
+	<div class="container-fluid" id="pictures">
+		<div class="row">
+			<div class="span12">
+				
+				<h2>
+					<%= t :welcome_index_content2 %>
+				</h2>
+				
+ 			   <div id="main" role="main">
+ 				  <ul id="tiles">
+ 					 <!-- These are our grid blocks -->
+					 <li><%= image_tag('landingpage_promo1.jpg', width: 200, height: 400)%></li>
+					 <li><%= image_tag('landingpage_promo2.jpg', width: 200, height: 150)%></li>
+					 <li><%= image_tag('landingpage_promo3.jpg', width: 200, heigh: 300)%></li>
+					 <li><%= image_tag('landingpage_promo4.jpg', width: 200, height: 500)%></li>
+					 <li><%= image_tag('landingpage_promo5.jpg', width: 200, height: 250)%></li>
+					 <li><%= image_tag('landingpage_promo6.jpg', width: 200, height: 200)%></li>
+					 <li><%= image_tag('landingpage_promo7.jpg', width: 200, height:300)%></li>
+   				  <!-- End of grid blocks -->
+   		   </ul>
+	   </div>
+	</div>
+	</div>
+	</div>
+	
+	<div class="container-fluid light-color-one" id="how-it-works">
+		<div class="row">
+			<div class="span12 cntr">
+ 				<h1> How it works </h1>
+	</div>
+	</div>
+	</div>
+	
+	<div class="container-fluid light-color-one">
+		<div class="row">
+			<div class="span12 cntr">
+ 				<h1> Sign in with Facebook </h1>
+				<h2> blablabla </h2>
+	</div>
+	</div>
+	</div>
+	
+	<div class="container-fluid light-color-two">
+		<div class="row">
+			<div class="span12 cntr">
+ 				<h1> Tell us what you are looking for</h1>
+				<h2> blablabla </h2>
+	</div>
+	</div>
+	</div>
+	
+	<div class="container-fluid dark-color-one">
+		<div class="row">
+			<div class="span12 cntr">
+ 				<h1> We match you with interesting people </h1>
+				<h2> blablabla </h2>
+	</div>
+	</div>
+	</div>
+	
+	<div class="container-fluid light-color-one">
+		<div class="row">
+			<div class="span12 cntr">
+ 				<h1> Go out and have fun. </h1>
+				<h2> blablabla </h2>
+	</div>
+	</div>
+	</div>
+	
+	<div class="container-fluid berlin-bg">
+		<div class="row">
+			<div class="span12" id="berlin">
+ 				<h1> WE JUST LAUNCHED IN BERLIN</h1>
+				<p> CHECK IT OUT! </p>
+			</div>
+	</div>
+	</div>
+
 <script type="text/javascript">
   (function ($){
     var handler = $('#tiles li');

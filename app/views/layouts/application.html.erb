@@ -21,40 +21,34 @@
 </head>
 
 <body>
-	<div class="container">
+	<div class="container-fluid" id="header">
   
   <!-- ========================== HEADER ========================== -->
   
     <div class="row">
-      <div class="span6">
-        <div class="logo on-left"> Logo here </div>
-        <h2 class="text italic thin">Landing Template</h2>
+      <div class="span3" id="logo">
+      <%= image_tag 'socialize.png', width: 150%>
       </div>
-      <nav class="span6">
+	  <div class="span6 nav-menu">
+	  </div>
+      <nav class="span3 nav-login">
           <a href="#" class="btn btn-success btn-md"><span class="icon user"></span>Login</a>
           <a href="#" class="btn btn-success btn-md"><span class="icon pencil"></span>Signup</a>
       </nav>
     </div>
+</div>
 	
 	 <!-- ==========================  YIELD ========================== -->
 	 
 <%= yield %>
 
+
+
 	 <!-- ========================== FOOTER ========================== -->
+	 <div class="container" id="footer">
     <div class="row">
-      <div class="span5">
-        <p class="text bold big">Handcrafted by <a href="http://tapquo.com" class="display inline"><img src="http://cdn.tapquo.com/images/logo_footer.png"/></a></p>
-        We're a  user experiences company located in <span class="text normal">Bilbao</span>, ES.
-      </div>
-      <div class="span4">
-        <p class="text bold big">Join the team!</p>
-                Let us know how you're! <a href="mailto:hello@tapquo.com?subject=job" class="text underline color theme">Get in touch</a>
-      </div>
-      <div class="span3">
-        <p class="text bold big">Need some help?</p>
-        For quick answers or help <a href="https://twitter.com/tapquo" target="_blank" class="text underline color theme">follow us</a>
-      </div>
     </div>
+</div>
 </div>
 
 </body>

@@ -1,0 +1,101 @@
+/* bootstrap overwrites and individuals */
+
+h1 {
+	font-size:30px;
+	text-align:center;
+}
+
+h2 {
+	font-size:20px;
+	text-align:center;
+	font-weight: 300;
+}
+
+#welcome {
+	background-color:#3785c7; /* this is our signature color */
+	padding-left:50px;
+	padding-bottom:90px;
+	padding-top:90px;
+	color:#FFFFFF;
+}
+
+
+#how-it-works {
+	background-color:#FFFFFF;
+	height:200px;
+}
+
+#logo {
+	float:left;
+	
+}
+
+#header {
+	background-color:#FFFFFF;
+	padding-bottom:20px;
+	padding-left:50px;
+
+}
+
+#pictures {
+	background-color:#FFFFFF;
+	padding-left:50px;	
+	padding-top:90px;
+	color:#444;
+}
+
+
+.signature-color {
+	background-color:#FFFFFF;
+	padding-left:50px;
+	padding-top:90px;
+}
+
+.light-color-one {
+	background-color:#FFFFFF; 
+	padding-left:50px;
+	padding-top:90px;
+}
+
+.light-color-two {
+	padding-left:50px;
+	padding-top:90px;
+	background-color:#378FFF; 
+	color:#FFFFFF;
+}
+
+.dark-color-one {
+	padding-left:50px;
+	padding-top:90px;
+	background-color:#3785c7; 
+	color:#FFFFFF;
+}
+
+.dark-color-two {
+	padding-left:50px;
+	padding-top:90px;
+	background-color:#3785c7; 
+	color:#FFFFFF;
+}
+
+.nav-login {
+	float:right;
+	padding-right:50px;
+}
+
+.berlin-bg {
+	background-image:url('http://www.oly-forum.com/files/images/berlin_skyline_night_alexanderplatz_panorama.jpg');
+	padding-left:50px;
+	background-size: 100% auto;
+	height:710px;
+	color:#FFFFFF;
+	padding-top:90px;
+}
+
+#berlin {
+	margin-top:100px;
+}
+
+.nav-menu {
+	
+}

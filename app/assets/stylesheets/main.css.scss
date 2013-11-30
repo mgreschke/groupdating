@@ -26,6 +26,7 @@ header p {
 /**
  * Grid container
  */
+
 #tiles {
   list-style-type: none;
   position: relative; /** Needed to ensure items are laid out relative to this container **/
@@ -33,19 +34,22 @@ header p {
   padding: 0;
 }
 
+#tiles li img {
+	padding: 0;
+	margin: 0;
+}
+
+
 /**
  * Grid items
  */
 #tiles li {
   width: 200px;
   background-color: #ffffff;
-  border: 1px solid #dedede;
-          border-radius: 2px;
-     -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
   display: none; /** Hide items initially to avoid a flicker effect **/
   cursor: pointer;
-  padding: 4px;
+  padding: 0;
+  margin:0;
 }
 
 #tiles li.inactive {
@@ -63,17 +67,12 @@ header p {
 #tiles li p {
   color: #666;
   font-size: 12px;
-  margin: 7px 0 0 7px;
 }
 
 /**
  * Placerholder css
  */
 .wookmark-placeholder {
-          border-radius: 2px;
-     -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
   background-color: #eee;
-  border: 1px solid #dedede;
   z-index: -1;
 }
