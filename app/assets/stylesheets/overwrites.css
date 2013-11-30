@@ -1,14 +1,39 @@
 /* bootstrap overwrites and individuals */
 
+.heading-large {
+	margin-top:50px;
+	margin-bottom:50px;
+	font-size:45px;
+	font-weight:200;
+	line-height:50px;
+}
+
+.content-large {
+	margin-top:15px;
+	margin-bottom:10px;
+	font-size:30px;
+	line-height:35px;
+	font-weight:200;
+	text-align:center;
+}
+
+.content-container {
+	margin-top:250px;
+	margin-bottom:250px;
+}
+
 h1 {
 	font-size:30px;
 	text-align:center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 400;
 }
 
 h2 {
 	font-size:20px;
 	text-align:center;
 	font-weight: 300;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
 #welcome {
@@ -21,8 +46,9 @@ h2 {
 
 
 #how-it-works {
-	background-color:#FFFFFF;
+	background-color:#3785c7;
 	height:200px;
+	color:#FFF;
 }
 
 #logo {
@@ -46,7 +72,7 @@ h2 {
 
 
 .signature-color {
-	background-color:#FFFFFF;
+	background-color:#3785c7;
 	padding-left:50px;
 	padding-top:90px;
 }
@@ -60,7 +86,7 @@ h2 {
 .light-color-two {
 	padding-left:50px;
 	padding-top:90px;
-	background-color:#378FFF; 
+	background-color:#3785c7; 
 	color:#FFFFFF;
 }
 
@@ -94,6 +120,10 @@ h2 {
 
 #berlin {
 	margin-top:100px;
+}
+
+#berlin h1, #berlin p {
+	text-align:left;
 }
 
 .nav-menu {
