@@ -21,6 +21,15 @@
 
 en:
   hello: "Hello world"
-  welcome_index_title: "socialize is the easiest way to find new, interesting people in your city."
-  welcome_index_content1: "Make new friends - like in a bar. Just better."
+  welcome_index_title: "3 guys. 3 girls."
+  welcome_index_content1: "The best way to meet new people in your city."
   welcome_index_content2: "Take a look at what its like to socialize:"
+  welcome_index_how: "How it works"
+  welcome_index_box_header1: "Sign Up."
+  welcome_index_box_header2: "Invite two friends."
+  welcome_index_box_header3: "Meet."
+  welcome_index_box_content1: "Easily sign up for evenings using facebook. We only take the minimum amount of data we need from your profile to match you with another group. Answer a couple more questions on what you are looking for and you are ready to go!"
+  welcome_index_box_content2: "We match three guys with three girls. Invite two of your friends for the perfect evening. No awkwardness - just get to know new people around town!"
+  welcome_index_box_content3: "Evenings sets you and your matchies up at a special location. Meet there - the rest is up to you."
+  quote: '"My friends Carla and Anastasia and me are new in Berlin as we moved here to study this autumn.  I found evenings through facebook and decided to give it a try with my friends. We met a couple guys working in the media industry in Berlin and had a blast. Eventually my friend Carla also started dating one of them."'
+  

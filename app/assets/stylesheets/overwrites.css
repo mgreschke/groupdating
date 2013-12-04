@@ -1,5 +1,46 @@
 /* bootstrap overwrites and individuals */
 
+
+#footer {
+	height:200px;
+	
+}
+
+.navbar-inner .container ul li a {
+
+	font-size:16px;
+	color:#FFF;
+	text-decoration:none;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+	padding: 9px 13px;
+	display:block;
+	background-color:transparent;
+}
+
+.navbar-inner .container ul li a:hover {
+	background-color:transparent;
+	font-weight:500;
+}
+
+
+
+.btn {
+	
+	border:2px solid #899fc9;
+	color:#899fc9;
+	padding: 10px 90px;
+	font-size:20px;
+	line-height:25px;
+	text-align:center;
+}
+
+#auth-button:hover {
+	background-color:#899fc9;
+	color:#FFFFFF;
+}
+
+body { padding-top: 70px; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif;}
+
 .heading-large {
 	margin-top:50px;
 	margin-bottom:50px;
@@ -23,61 +64,136 @@
 }
 
 h1 {
-	font-size:30px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+	font-size:110px;
+	font-weight:700;
+	float:none;
 	text-align:center;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-	font-weight: 400;
+	color:#444;
 }
 
 h2 {
-	font-size:20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+	font-size:60px;
+	font-weight:400;
 	text-align:center;
-	font-weight: 300;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	float:none;
+	color:#666;
 }
 
-#welcome {
-	background-color:#3785c7; /* this is our signature color */
-	padding-left:50px;
-	padding-bottom:90px;
-	padding-top:90px;
-	color:#FFFFFF;
+h3 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+	font-size:30px;
+	font-weight:200;
+	text-align:center;
+	color:#666;
+	float:none;
+}
+
+.welcome {
+	background-color:#FFF; 
+	height:400px;
+}
+
+.auth-li {
+	margin: 0 auto;
+}
+
+#auth-button {
+	border:2px solid #899fc9;
+	color:#899fc9;
+	padding: 10px 90px;
+	font-size:16px;
+	background-color:transparent;
+	text-align:center;
+	float:none;
+	margin-left:600px; /* der scheiß spackt rum...  warum lässt sich das nicht anders zentrieren */
 }
 
 
 #how-it-works {
-	background-color:#3785c7;
-	height:200px;
-	color:#FFF;
+	background-color:#FFF;
+	height:600px;
+	color:#666;
+}
+
+#how-it-works h1 {
+	font-size:70px;
+	font-weight:100;
+	color:#899fc9;
+}
+
+.mbox-container {
+		float:none;
+	margin: 0 auto;
+
+}
+
+.mbox h2 {
+	font-size:40px;
+	font-weight:100;
+	color:#899fc9;
+	text-align:center;
+}
+
+.mbox p {
+	font-size:20px;
+	text-align:justify;
+	color:#666;
+	font-weight:100;
+}
+
+.mbox {
+	width:300px;
+	float:left;
+	margin:15px 20px;
 }
 
 #logo {
-	float:left;
-	
+	font-family:'Open Sans' arial, serif;
+	font-size:150px;
+	font-weight:700;
+	color:#899fc9;
+	text-decoration:none;
+	padding: 9px 13px;
+	display:block;
+	background-color:transparent;
+
 }
 
 #header {
-	background-color:#FFFFFF;
+	background-color:#89a0cb;
 	padding-bottom:20px;
 	padding-left:50px;
+	position:fixed;
 
 }
 
 #pictures {
-	background-color:#FFFFFF;
+	background-color:#FFF;
 	padding-left:50px;	
-	padding-top:90px;
+	padding-top:80px;
 	color:#444;
 }
 
 
-.signature-color {
-	background-color:#3785c7;
-	padding-left:50px;
-	padding-top:90px;
+.quote {
+	background-color:#899fc9;
+	padding-top:20px;
+	padding-bottom:20px;
+	color: #FFF;
+
 }
 
-.light-color-one {
+.quote h2 {
+	color:#FFF;
+	text-align:center;
+	font-size:30px;
+	width:900px;
+	margin:0 auto;
+}
+
+.transition {
 	background-color:#FFFFFF; 
 	padding-left:50px;
 	padding-top:90px;
@@ -86,21 +202,21 @@ h2 {
 .light-color-two {
 	padding-left:50px;
 	padding-top:90px;
-	background-color:#3785c7; 
+	background-color:#fcd273; 
 	color:#FFFFFF;
 }
 
 .dark-color-one {
 	padding-left:50px;
 	padding-top:90px;
-	background-color:#3785c7; 
+	background-color:#fcd273; 
 	color:#FFFFFF;
 }
 
 .dark-color-two {
 	padding-left:50px;
 	padding-top:90px;
-	background-color:#3785c7; 
+	background-color:#fcd273; 
 	color:#FFFFFF;
 }
 

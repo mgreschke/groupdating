@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Groupdating</title>
+  <link href='http://fonts.googleapis.com/css?family=Reenie+Beanie|Josefin+Sans+Std+Light' rel='stylesheet' type='text/css' />
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
@@ -21,22 +22,24 @@
 </head>
 
 <body>
-	<div class="container-fluid" id="header">
   
   <!-- ========================== HEADER ========================== -->
-  
-    <div class="row">
-      <div class="span3" id="logo">
-      <%= image_tag 'socialize.png', width: 150%>
-      </div>
-	  <div class="span6 nav-menu">
+  <div class="container-fluid">
+	  <div class="row">
+		  <div class="span12 welcome">
+			  <h1 id="logo">evenings</h1>
+			  <h2> 3 guys. 3 girls. </h2>
+			  <h3>The best way to meet new people in your city.</h3>
+		  </div>
 	  </div>
-      <nav class="span3 nav-login">
-          <a href="auth/facebook" class="btn btn-success md"><span class="icon user"></span>Login/Signup</a>
-      </nav>
-    </div>
-</div>
-	
+	  <div class="row">
+		  <div class="span12">
+			  			  <a href="auth/facebook" id="auth-button">Login/Signup</a>
+					  </div>
+				 </div>
+  </div>
+		  
+
 	 <!-- ==========================  YIELD ========================== -->
 	 
 <%= yield %>
@@ -46,6 +49,8 @@
 	 <!-- ========================== FOOTER ========================== -->
 	 <div class="container-fluid" id="footer">
     <div class="row">
+		<div class="span12">
+			social media links and shit
     </div>
 </div>
 </div>

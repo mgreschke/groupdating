@@ -1,28 +1,17 @@
 
-<div class="container-fluid" id="welcome">
-	<div class="row">
-		<div class="span12">
-
-			<h1><%= t :welcome_index_title%></h2>
-			<h2>
-				<%= t :welcome_index_content1%>
-			</h2>
-
-		</div>
-	</div>
-	</div>
-
 	<div class="container-fluid" id="pictures">
 		<div class="row">
 			<div class="span12">
-				
-				<h2>
-					<%= t :welcome_index_content2 %>
-				</h2>
-				
  			   <div id="main" role="main">
  				  <ul id="tiles">
  					 <!-- These are our grid blocks -->
+					 <li><%= image_tag('landingpage_promo1.jpg', width: 200, height: 400)%></li>
+					 <li><%= image_tag('landingpage_promo2.jpg', width: 200, height: 150)%></li>
+					 <li><%= image_tag('landingpage_promo3.jpg', width: 200, heigh: 300)%></li>
+					 <li><%= image_tag('landingpage_promo4.jpg', width: 200, height: 500)%></li>
+					 <li><%= image_tag('landingpage_promo5.jpg', width: 200, height: 250)%></li>
+					 <li><%= image_tag('landingpage_promo6.jpg', width: 200, height: 200)%></li>
+					 <li><%= image_tag('landingpage_promo7.jpg', width: 200, height:300)%></li>
 					 <li><%= image_tag('landingpage_promo1.jpg', width: 200, height: 400)%></li>
 					 <li><%= image_tag('landingpage_promo2.jpg', width: 200, height: 150)%></li>
 					 <li><%= image_tag('landingpage_promo3.jpg', width: 200, heigh: 300)%></li>
@@ -36,55 +25,40 @@
 	</div>
 	</div>
 	</div>
-	
-	<div class="container-fluid dark-color-one">
+	<div class="container" id="how-it-works">
 		<div class="row">
-			<div class="span12 content-container">
- 				<h1 class="heading-large"> How it works </h1>
-				<p class="content-large"> Grab two of your best friends. </p>
-				<p class="content-large"> Get matched with an awesome group of girls or guys. </p>
-				<p class="content-large"> Prepay your first drink online. </p>
-	</div>
-	</div>
-	</div>
-	
-	<div class="container-fluid dark-color-one">
-		<div class="row">
-			<div class="span12 content-container">
- 				<h1 class="heading-large"> Sign in with Facebook </h1>
-				<p class="content-large"> Sign up in seconds. No time lost for registration. </p>
-				<p class="content-large"> We make sure you get to know new people by checking mutual friends. </p>
-	</div>
-	</div>
-	</div>
-	
-	<div class="container-fluid dark-color-one">
-		<div class="row">
-			<div class="span12 content-container">
- 				<h1 class="heading-large"> Tell us what you are looking for</h1>
-				<p class="content-large"> Do you prefer a relaxed evening in a bar or are you looking for a fun clubbing night?</p>
-				<p class="content-large"> We got you covered. </p>
-	</div>
-	</div>
-	</div>
-	
-	<div class="container-fluid light-color-one">
-		<div class="row">
-			<div class="span12 content-container">
- 				<h1 class="heading-large">  We tell you where to meet. </h1>
-				<p class="content-large"> Go out and meet the other three. </p>
-	</div>
-	</div>
-	</div>
-	
-	<div class="container-fluid berlin-bg">
-		<div class="row">
-			<div class="span12" id="berlin">
- 				<h1> WE JUST LAUNCHED IN BERLIN</h1>
-				<p> CHECK IT OUT! </p>
+			<div class="span12">
+				<h1><%= t :welcome_index_how%></h1>
 			</div>
+		</div>
+		<div class="row">
+			<div class="mbox-container">
+			<div class="span3 offset1 mbox">
+				<h2><%= t :welcome_index_box_header1%></h2>
+				<p><%= t :welcome_index_box_content1 %></p>
+			</div>
+			<div class="span3 offset1 mbox">
+				<h2> <%= t :welcome_index_box_header2%></h2>
+				<p> <%= t :welcome_index_box_content2 %> </p>
+			</div>
+			<div class="span3 offset1 mbox">
+				<h2><%= t :welcome_index_box_header3%></h2>
+				<p> <%= t :welcome_index_box_content3 %> </p>
+			</div>
+		</div>
+		</div>
 	</div>
+	
+	<div class="container-fluid quote">
+		<div class="row">
+			<div class="span12">
+				<h2><%= t :quote%></h2>
+			</div>
+		</div>
 	</div>
+				
+
+	
 
 <script type="text/javascript">
   (function ($){
@@ -94,7 +68,7 @@
         // Prepare layout options.
         autoResize: true, // This will auto-update the layout when the browser window is resized.
         container: $('#main'), // Optional, used for some extra CSS styling
-        offset: 1, // Optional, the distance between grid items
+        offset: 25, // Optional, the distance between grid items
         outerOffset: 10, // Optional, the distance to the containers border
         itemWidth: 200 // Optional, the width of a grid item
     });
